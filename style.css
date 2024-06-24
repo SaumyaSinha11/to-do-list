@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif?cid=ecf05e47cqtds5aael29epa85f8i853zxr7eygiyyc0e7roo&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+body .container-fluid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+/* Input area */
+
+form{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.198);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form:hover{
+    border: 2px solid white;
+}
+
+form input, button{
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+form input{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+}
+
+/* -list- */
+
+#list-box{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.198);
+    border-radius: 5px;
+}
+ ol{
+    font-size: 25px;
+    font-weight: 600;
+ }
+
+ol li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ol li i{
+    padding: 15px;
+    margin: 0 25px;
+}
+
+ol li i:hover{
+    color: rgb(86, 235, 37);
+}
+
+.done{
+    text-decoration: line-through;
+    opacity: 60%;
+}
